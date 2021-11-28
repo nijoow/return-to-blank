@@ -55,9 +55,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.VisualEnvironment
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.VisualEffectGraph.Editor.dll:
-    - UnityEditor.VFX.UI.VFXGraphUndoCursor
-    - UnityEditor.VFX.VFXResources
     Unity.VisualEffectGraph.Runtime.dll:
     - UnityEngine.VFX.Utility.VFXHierarchyAttributeMapBinder
     - UnityEngine.VFX.Utility.VFXPropertyBinder
@@ -102,93 +99,93 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1690}
+    - Class: 114
       Script: {instanceID: 1692}
     - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
       Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 1698}
+      Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 1706}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 1804}
+      Script: {instanceID: 1884}
     - Class: 114
-      Script: {instanceID: 1886}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2552}
     - Class: 114
-      Script: {instanceID: 2554}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3644}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3702}
     - Class: 114
-      Script: {instanceID: 3704}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 3876}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 4390}
     - Class: 114
-      Script: {instanceID: 4394}
+      Script: {instanceID: 4556}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4668}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 4948}
+      Script: {instanceID: 5858}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 5880}
+      Script: {instanceID: 5948}
     - Class: 114
-      Script: {instanceID: 5954}
+      Script: {instanceID: 6174}
     - Class: 114
-      Script: {instanceID: 6180}
+      Script: {instanceID: 6176}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 6198}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 6458}
     - Class: 114
-      Script: {instanceID: 6464}
+      Script: {instanceID: 6596}
     - Class: 114
-      Script: {instanceID: 6602}
+      Script: {instanceID: 6770}
     - Class: 114
-      Script: {instanceID: 6778}
+      Script: {instanceID: 6852}
     - Class: 114
       Script: {instanceID: 6860}
     - Class: 114
-      Script: {instanceID: 6868}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 6934}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 7002}
+      Script: {instanceID: 7042}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 7092}
     - Class: 114
-      Script: {instanceID: 7100}
+      Script: {instanceID: 7188}
     - Class: 114
-      Script: {instanceID: 7196}
+      Script: {instanceID: 7304}
     - Class: 114
-      Script: {instanceID: 7314}
+      Script: {instanceID: 7464}
     - Class: 114
-      Script: {instanceID: 7474}
+      Script: {instanceID: 7588}
     - Class: 114
-      Script: {instanceID: 7598}
+      Script: {instanceID: 7652}
     - Class: 114
-      Script: {instanceID: 7662}
+      Script: {instanceID: 8410}
     - Class: 114
-      Script: {instanceID: 8422}
+      Script: {instanceID: 8766}
     - Class: 114
-      Script: {instanceID: 8778}
-    - Class: 114
-      Script: {instanceID: 9084}
+      Script: {instanceID: 9072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -742,12 +739,6 @@ ScriptsOnlyBuild:
     className: WhiteBalance
   - hash:
       serializedVersion: 2
-      Hash: e026bb837fcefd074c701ea4526064a6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KinectOverlayer
-  - hash:
-      serializedVersion: 2
       Hash: 295852e83016219fe0ab9a38fc36f74a
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -1072,12 +1063,6 @@ ScriptsOnlyBuild:
     className: Exposure
   - hash:
       serializedVersion: 2
-      Hash: 3f7d3eac3468685ef18425a40cd5b891
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ConstantRotation
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1324,12 +1309,6 @@ ScriptsOnlyBuild:
     className: CinemachineSameAsFollowTarget
   - hash:
       serializedVersion: 2
-      Hash: d52f6be0ff54aaec61c9eba5ba79ebee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GetWebCamTexture
-  - hash:
-      serializedVersion: 2
       Hash: 2792936179724025482dc04d68a47ca7
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1448,12 +1427,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: a763f94dbe593d21bd5774e46375df40
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: position
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1604,12 +1577,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXPreviousPositionBinder
-  - hash:
-      serializedVersion: 2
-      Hash: 7bbc7a3a248dade972e1bef515b512f0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EffectManager
   - hash:
       serializedVersion: 2
       Hash: d227987243593b32ae57394d06018643
@@ -1955,4 +1922,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/vfxdrawing.unity
-  playerPath: "C:/Users/jinni/Desktop/\uAC1C\uC778\uC778\uD130/New Unity Project.exe"
+  playerPath: C:/Users/jinni/Desktop/LWJindividual/New Unity Project.exe

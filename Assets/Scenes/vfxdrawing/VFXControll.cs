@@ -56,28 +56,28 @@ public class VFXControll : MonoBehaviour
         depthData = manager.GetRawDepthMap();
         int depthIndex=0;
         int textureIndex=0;
-        minDepthAmount = 10000;
+        minDepthAmount = 12001;
         notDrawingNow();
         for(int j=0;j<textureHeight;j++){
 			for(int i=0;i<textureWidth;i++){
                 depthIndex = i + j*textureWidth;
                 textureIndex = i + (textureHeight-1-j)*textureWidth;
-                /*if (depthData[depthIndex] < 7000){
+                if (depthData[depthIndex] < 10000){
                     outputPixels[textureIndex] = Color.black;
                 }
-    			else*/ if( depthData[depthIndex] >= 7000 && depthData[depthIndex] <= 10000){
-                    //outputPixels[textureIndex] = Color.blue;
+    			else if( depthData[depthIndex] >= 10000 && depthData[depthIndex] <= 12000){
+                    outputPixels[textureIndex] = Color.blue;
                     if(minDepthAmount > depthData[depthIndex]){
                         minDepthAmount = depthData[depthIndex];
                         positionNow = new Vector2(textureWidth-1-i,textureHeight-1-j);
                         
-                        velocity = mapping(minDepthAmount,10000,7000,30,80);
+                        velocity = mapping(minDepthAmount,12000,9700,50,120);
                         isDrawingNow();
                     }
                 }
-               /* else{
+               else{
                     outputPixels[textureIndex] = Color.white;
-                }*/
+                }
 			}
 		}
 
@@ -100,13 +100,13 @@ public class VFXControll : MonoBehaviour
         else{   
             lifetimeA = 0;
             lifetimeB = 3;
-            backGroundChange();
+           // backGroundChange();
         }
     }
     private void isDrawingNow(){
         //StopCoroutine(Delay());
         isDrawing = true;
-        drawing = 200000;
+        drawing = 500000;
     }
     private void notDrawingNow(){
         //StartCoroutine(Delay());
@@ -136,6 +136,6 @@ public class VFXControll : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
     }
     void OnGUI() {
-       // GUI.DrawTexture(new Rect(textureWidth-textureWidth/4,textureHeight-textureHeight/4,textureWidth/4, textureHeight/4), texture);
+       //GUI.DrawTexture(new Rect(0,0,textureWidth/4, textureHeight/4), texture);
     }
 }
